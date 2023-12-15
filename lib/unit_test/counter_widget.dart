@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:testing_in_flutter/counter.dart';
+
+import 'counter.dart';
 
 class CounterWidget extends StatefulWidget {
   const CounterWidget({super.key});
