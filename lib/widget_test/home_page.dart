@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:testing_in_flutter/widget_test/counter.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key, required this.title});
+class MyHomePageScreen extends StatefulWidget {
+  const MyHomePageScreen({super.key, required this.title});
 
   final String title;
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<MyHomePageScreen> createState() => _MyHomePageScreenState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageScreenState extends State<MyHomePageScreen> {
   final Counter counter = Counter();
 
   void _incrementCounter() {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:testing_in_flutter/main.dart';
+import 'package:testing_in_flutter/widget_test/home_page.dart';
 import 'package:testing_in_flutter/widget_test/home_screen_user.dart';
 import 'package:testing_in_flutter/widget_test/user_model.dart';
 
@@ -17,7 +17,7 @@ void main() {
       /// this function means we are starting or  restarting the application
       await tester.pumpWidget(
         const MaterialApp(
-          home: MyHomePage(
+          home: MyHomePageScreen(
             title: 'Counter App',
           ),
         ),
